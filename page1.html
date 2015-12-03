@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Online Exam fee payment</title>
+		<link href="css/1.css" type="text/css" rel="stylesheet"/> 
+        <script src="js/jquery-2.1.0.js" type="text/javascript" language="javascript"></script>
+        <script src="js/1.js" type="text/javascript" language="javascript"></script>
+	</head>
+    <body>
+		<!--------------------------------------header--------------------------------->
+    	<header>
+        	<div id="logo" class="heading1">
+        		<img src="images/s.gif"/>
+            </div>
+			<div class="heading1" id="heading">
+				
+			</div>
+			<div class="heading1" id="online">
+				<span style="font-family:andalus
+                ; color:#C63; font-size:42px">ONLINE EXAMINATION FEE MANAGEMENT SYSTEM</span>
+               
+			
+		</header><!--------------------------------------------------------------------------->
+		<!--<div id="roll"></div>-->
+		<!---------------------------------------------container--------------------->
+		<div id="container">
+        	         <img src="images/11241A0598.jpg" style="float:right; padding:1% 1% 0 0" height="150px" width="150px"/>
+           <div id=content>
+			<label>Name of the student :
+            </label><br><br>
+         
+            <label>Father's name : Chinmula Gopi</label><br><br>
+            <label>Roll Number : 11241A0598</label><br><br>
+            <label>Date Of Birth : 02-05-1994</label><br><br>
+            <label>Pay Fees :</label>
+            <input type="radio" name="exam" id="regular"/><label>Regular</label>
+            <input type="radio" name="exam" id="backlog"/><label>Backlogs</label>
+            <div class="regularshow" id="regularshow">
+            	<label>Year :&nbsp;</label><select class="inputs" style="width:7%; margin-right:4%">
+                	<option value="1">I</option>
+                    <option value="2">II</option>
+                    <option value="3" selected>III</option>
+                    <option value="4">IV</option>
+                </select>
+                <label>Semester :</label>
+                <input type="radio" name="sem"/>I
+                <input type="radio" name="sem"/>II
+                <div id="loginbutton">
+					<a href="index1.html" style="color:#707070">PAY</a>
+				</div>
+            
+            
+            </div>
+            <div class="regularshow" id="backlogsshow">
+            <label>Number of backlogs : </label>
+            <input type="text" name="backlogs" value="4" style="width:5%" class="inputs"/>
+            <input type="button" name="show" value="show" id="show" style="margin-left:2%"/>
+            
+            </div>
+            <!--list of backlogs-->
+        	<div id="back">
+            	<table bordercolor="#CCCCCC" border="thin">
+                	<thead>
+                    	<tr>
+                        	<th>Sno</th>
+                            <th>Subject</th>
+                            <th>Subject Code</th>
+                            <th>Internal Marks</th>
+                            <th>External Marks</th>
+                            <th>Total Marks</th>
+                            <th>Result</th>
+                            <th>Select</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    	<tr>
+                        	<td>1</td>
+                            <td>Mathematics II</td>
+                            <td>GR11A1010</td>
+                        	<td>14</td>
+                        	<td>25</td>
+                            <td>39</td>
+                            <td>F</td>
+                            <td>
+                            	<input type="checkbox" name="q"/>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>2</td>
+                            <td>Engineering Graphic</td>
+                            <td>GR11A1012</td>
+                        	<td>15</td>
+                        	<td>21</td>
+                            <td>36</td>
+                            <td>F</td>
+                            <td>
+                            	<input type="checkbox" name="q2"/>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>3</td>
+                            <td>Data Base Management Systems</td>
+                            <td>GR11A2076</td>
+                        	<td>13</td>
+                        	<td>25</td>
+                            <td>38</td>
+                            <td>F</td>
+                            <td>
+                            	<input type="checkbox" name="q3"/>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>4</td>
+                            <td>Formal Languages Automata Theory</td>
+                            <td>GR11A2057</td>
+                        	<td>12</td>
+                        	<td>24</td>
+                            <td>36</td>
+                            <td>F</td>
+                            <td>
+                            	<input type="checkbox" name="q3"/>
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+                </table>
+				<div id="loginbutton">
+					<a href="index1.html" style="color:#707070">PAY</a>
+				</div>
+            </div>
+			
+			</div>
+		
+		</div>
+		<!-------------------------------------------------------------------------->
+		<!-------------------------------------footer------------------------------->
+		<footer>
+        	
+		</footer>
+		<!------------------------------------------------------------------------->
+    </body>
+</html>

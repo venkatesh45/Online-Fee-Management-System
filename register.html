@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>Online Exam fee payment</title>
+		<link href="css/1.css" type="text/css" rel="stylesheet"/> 
+        <script src="js/jquery-2.1.0.js" type="text/javascript" language="javascript"></script>
+        <script src="js/1.js" type="text/javascript" language="javascript"></script>
+	</head>
+    <body>
+		<!--------------------------------------header--------------------------------->
+    	<header>
+        	<div id="logo" class="heading1">
+        		<img src="images/s.gif"/>
+            </div>
+			<div class="heading1" id="heading">
+				
+			</div>
+			<div class="heading1" id="online">
+				<span style="font-family:andalus
+                ; color:#C63; font-size:42px">ONLINE EXAMINATION FEE MANAGEMENT SYSTEM</span>
+               
+			
+		</header>
+		<!--------------------------------------------------------------------------->
+		<!--<div id="roll"></div>-->
+		<!---------------------------------------------container--------------------->
+		<div id="container">
+			
+			<div>
+				<form id="registercontent" action="registercheck.php" method="post" enctype="multipart/form-data">
+				
+					<label>Name :</label>
+					<input type="text" name="username" placeholder="User Name" class="inputs" style="margin-left:18%;"/><br>
+                     <label>Register Id :</label>
+                     <input type="text" name="id" placeholder="Register ID" class="inputs" style="margin-left:12%"/><br>
+					<label>Password :</label>
+					<input type="password" name="password" placeholder="Password" class="inputs" style="margin-left:13%;"/><br>
+					<label>Re-Enter Password :</label>
+					<input type="password" name="conpassword" placeholder="Password" class="inputs" style="margin-left:2%;"/><br>
+					<label>Father Name :</label>
+					<input type="text" placeholder="Father Name" name="fathername" class="inputs" style="margin-left:9.5%;"/><br>
+                    
+					<label>Course : </label>
+                    <select class="inputs" style="margin-left:16%" name = "dept">
+                        <option value="btech">Btech</option>
+                        <option value="mtech">Mtech</option>
+                        <option value="mca">MCA</option>
+                        <option value="mba">MBA</option>
+                        <option value="mpharm">MPharm</option>
+                        <option value="bpharm">BPharm</option>
+                        
+                    </select>&nbsp;&nbsp;&nbsp;
+                    
+                    <select class="inputs" style="width:10%;" name="year">
+                    	<option value="1">I</option>
+                        <option value="2">II</option>
+                        <option value="3">III</option>
+                        <option value="4">IV</option>
+                    
+                    </select>
+                    
+                    
+                    <br>
+                    <label>Date Of Birth :</label>
+         
+                    
+                    	
+                    	<input type="date" name="date" placeholder="Date Of Birth" class="inputs" style="margin-left:9%"/><br>
+                    
+					<label>Contact No :</label>
+					<input type="tel" name="contactno" placeholder="Contact No" class="inputs" style="margin-left:12%;" /><br>
+                    <label>E-Mail ID :</label>
+                    <input type="email" class="inputs" placeholder="E-Mail ID" name="email" style="margin-left:14%"/><br><br>
+					
+ 
+                     <label for="file">Photo:</label>
+					<input type="file" name="file" id="file" style="margin-left:14%"/>
+                     <input type="submit" id="loginbutton"  name="loginbutton" style="color:#707070; margin-left:23%" value="REGISTER"/>
+				</form>
+		
+			</div>
+            <!--<div id="loginbutton">
+						<!--<input type="button" name="loginbutton" value="LOGIN"/>-->
+						<!--<a href="registercheck.php" name="loginbutton"style="color:#707070">REGISTER
+				</div>-->
+		
+		</div>
+		<!-------------------------------------------------------------------------->
+		<!-------------------------------------footer------------------------------->
+		<footer>
+        	
+		</footer>
+		<!------------------------------------------------------------------------->
+    </body>
+</html>
